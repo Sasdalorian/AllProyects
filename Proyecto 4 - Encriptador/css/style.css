@@ -1,0 +1,103 @@
+:root {
+    --azulOscuro: #2225EC;
+    --blanco: #FFFFFF;
+    --grisOscuro: #2e3333;
+    --rojo: #FF0000;
+    --verde: #228b22;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* HEADER */
+header {
+    height: 10rem;
+    color: var(--blanco);
+    font-size: 3rem;
+}
+h1 {
+    padding: 1.5rem;
+    color: var(--amarillo);
+}
+
+/*BODY*/
+
+.body {
+    background-image: linear-gradient(100deg, pink, purple);
+    background: linear-gradient(-45deg);
+    font-size: 1.5rem;
+    color: var(--blanco);
+}
+.titulo {
+    text-align: center;
+}
+.cuadroTexto {
+    background-color: rgb(0 0 0 / 40%);
+    padding: 2rem;
+    border-radius: 2%;
+    margin-left: 1rem;
+}
+#texto__entrada{
+    width: 100%;
+    height: 26rem;
+}
+#texto__salida {
+    width: 100%;
+    height: 29.5rem;
+}
+.mensaje__box {
+    background-color: rgb(0 0 0 / 40%);
+    padding: 2rem;
+    border-radius: 2%;
+    margin-right: 1rem;
+}
+h2 {
+    text-align: center;
+}
+.cuadroTexto, .mensaje__box {
+    margin-top: 2rem;
+}
+.button {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    height: 5rem;
+    margin-top: 1rem;
+}
+.button__encriptador {
+    padding: 1rem;
+}
+#copiar {
+    width: 100%;
+    height: 5rem;
+    margin-top: 1rem;
+}
+.alertaError {
+    background-color: var(--rojo);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
+.mensajeLogrado {
+    background-color: var(--verde);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+}
+.insigniaAlura {
+    height: 25rem;
+    position: absolute;
+    left: 80%;
+    top: -0.5%;
+}

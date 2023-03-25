@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Encriptador</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+<body class="body">
+    <header class ="header">
+        <h1 class="titulo"> Challenge ONE Codificador</h1>
+        <img class="insigniaAlura" src="/img/unnamed.png">
+    </header>
+    
+    <main class="main">
+        <section class="cuadroTexto">
+            <form>
+                <h2>Mensaje</h2>
+                <textarea id="texto__entrada" placeholder="Ingrese su texto"></textarea>
+                <p>⛔ No recomendado el uso de Mayusculas, signos y tildes.</p>
+                <div class="container__button">
+                    <div class="button">
+                        <button id="encriptar" class="button__encriptador">Encriptar</button>
+                        <button id="desencriptar" class="button__encriptador">Desencriptar</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        
+        <section class="mensaje__box">
+            <h2> Encriptador / Desencriptador </h2>
+            <textarea id="texto__salida" cols="12" rows="10"></textarea>
+            <button id="copiar" onclick="copiar()">Copiar</button>
+        </section>
+    </main>
+
+    <script src="js.js"> </script>
+
+</body>
+</html>
