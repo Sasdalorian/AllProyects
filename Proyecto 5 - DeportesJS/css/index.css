@@ -1,0 +1,77 @@
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+    
+}
+
+#carrito {
+    overflow:scroll;
+    height:400px;
+    width: fit-content;
+    
+}
+
+.footerCard{
+    color: black;
+    background-color: rgb(187, 187, 187);
+    border-radius: 0%!important;
+    padding-left: 1rem;
+}
+
+.divMedio{
+    max-width: 350px;
+    
+}
+
+
+.InputCantidad{
+    background-color: #584c4c;
+    color: white;
+}
+
+
+
+.btnAgregar:hover,#agregarAlCarroModal:hover{
+    transition:all .5s ease-in-out;
+    color: rgb(0, 0, 0)!important;
+    background-color: rgb(255, 255, 255)!important;
+}
+
+.modal-header, .modal-footer{
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+
+.btn-close{
+    color: white;
+}
+
+.totales{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.botonesCarro{
+    bottom: 0;
+    position: absolute;
+    width: 80%;
+}
+
+#caraTriste{
+    
+    filter: brightness(1.1);
+    
+}
+
+#tituloCarro{
+    color: black!important;
+    margin-bottom: 20px!important;
+    font-weight: 500!important;
+    border-bottom: 2px black solid;
+}
+
+#footerTabla{
+    border-top: 2px black solid;
+}
+

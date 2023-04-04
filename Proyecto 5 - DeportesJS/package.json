@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@fancyapps/ui": "^4.0.31",
+    "emailjs-com": "^3.2.0",
+    "jquery": "^3.6.3",
+    "skitter": "^0.2.1"
+  }
+}
