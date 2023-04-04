@@ -42,6 +42,7 @@ abandona la carrera por problemas técnicos o personales.
 carrera en un formato similar al de la imagen. Considerando que solo los primeros 10 lugares obtienen
 puntos, de acuerdo a la siguiente tabla.
 
+```  
 1. 25 puntos
 2. 18 puntos
 3. 15 puntos
@@ -52,6 +53,8 @@ puntos, de acuerdo a la siguiente tabla.
 8. 4 puntos
 9. 2 puntos
 10. 1 punto
+```  
+
 
 3. Disponibilizar una página donde se pueda obtener el puntaje total de cada escudería, indicando un ranking
 con los resultados totales.
