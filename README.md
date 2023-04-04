@@ -24,3 +24,9 @@ Por ejemplo:
 0"gato" => "gaitober"
 gaitober" => "gato".
   
+## Proyecto 5
+En este proyecto se tuvo que crear una pagina donde deberá contener una lista de al menos 10 productos, 
+El usuario del sitio deberá tener la posibilidad de seleccionar 1 o más productos a agregar a su compra, 
+Cada elemento seleccionado deberá ser incorporado en un “totalizador” de productos,
+Generar una boleta con el detalle de los productos comprados y los totalizadores de la compra
+```Para mas información abrir el proyecto```
