@@ -1,7 +1,7 @@
 # AllProyects
 Mis proyectos realizados desde empezar a estudiar programación.
 
-
+Recordar hacer uso de ```npm i``` dentro de los respectivos proyectos.
 ## Proyecto 1,2 y 3
 Estos proyectos son los más basicos ya que sólo tienen uso de HTML y CSS, al 
 igual que se hicieron gracias al curso 

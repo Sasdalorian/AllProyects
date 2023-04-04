@@ -1,0 +1,21 @@
+{{#> plantilla}}
+    <div class="tabless">
+        <h1 class="h1posiciones">Tabla Clasificaciones Escuderias</h1>
+        <table class="tablaClasificacion">
+            <tr>
+                <th>Posicion</th>
+                <th>Escudo</th>
+                <th>Nombre Escuderia</th>
+                <th class="">Total</th>
+            </tr>
+            {{#each escuderia}}
+            <tr>
+                <th>{{n}}</th>
+                <th><img class="tablaClasificacion__teams" src="{{bandera}}"/></th>
+                <th>{{nombre}}</th>
+                <th>{{puntaje}}</th>
+            </tr>
+            {{/each}}
+        </table>
+    </div>
+{{/plantilla}}
